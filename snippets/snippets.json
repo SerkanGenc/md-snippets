@@ -1,0 +1,126 @@
+{
+    "md-init": {
+		"prefix": "md-init",
+		"body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\r\n    <title>Title of the document</title>\r\n    <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css\">\r\n    <script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>\r\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js\"></script>\r\n    <style>\r\n    </style>\r\n  </head>\r\n  <body>\r\n\r\n\r\n  <script>\r\n    $(function(){\r\n\r\n    })\r\n  </script>\r\n  </body>\r\n</html>",
+		"description": "Basic html structure using cdn"
+	},
+	"md-nav:basic": {
+		"prefix": "md-nav:basic",
+		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n<li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>",
+		"description": "Basic Navbar"
+	},
+	"md-nav:mobil": {
+		"prefix": "md-nav:mobil",
+		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <a href=\"#\" data-target=\"mobile-demo\" class=\"sidenav-trigger\"><i class=\"material-icons\">menu</i></a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n<li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n<ul class=\"sidenav\" id=\"mobile-demo\">\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n  <li class=\"divider\"></li>\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n</ul>",
+		"description": "Basic Navbar Mobil"
+	},
+	"md-icon" : {
+		"prefix":"md-icon",
+		"body": "<i class=\"material-icons\">$1add</i>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-icon:tiny" : {
+		"prefix":"md-icon:tiny",
+		"body": "<i class=\"material-icons tiny\">$1add</i>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-icon:small" : {
+		"prefix":"md-icon:small",
+		"body": "<i class=\"material-icons small\">$1add</i>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-icon:large" : {
+		"prefix":"md-icon:large",
+		"body": "<i class=\"material-icons large\">$1add</i>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-card" : {
+		"prefix":"md-card",
+		"body": "<div class=\"card-panel teal lighten-2 white-text\">\r\n$1\r\n</div>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-btn" : {
+		"prefix":"md-btn",
+		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\">$2</a>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-btn:left" : {
+		"prefix":"md-btn",
+		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\"><i class=\"material-icons left\">$2cloud</i>$3</a>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-btn:right" : {
+		"prefix":"md-btn",
+		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\"><i class=\"material-icons right\">$2cloud</i>$3</a>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+	"md-submit" : {
+		"prefix":"md-submit",
+		"body": "<button class=\"btn waves-effect waves-light\" type=\"submit\" name=\"action\">$1Submit\r\n  <i class=\"material-icons right\">send</i>\r\n</button>",
+		"description" : "Basic Icon",
+		"scope": "text.html"
+	},
+    "md-tx:basic" : {
+		"prefix":"md-tx:basic",
+		"body": "<div class=\"input-field\">\r\n  <input name=\"$1\" id=\"$1\" type=\"text\" class=\"validate\">\r\n  <label for=\"$1\">$2</label>\r\n</div>",
+		"description" : "Basic Textbox",
+		"scope": "text.html"
+	},
+	"md-tx:prefix" : {
+		"prefix":"md-tx:prefix",
+		"body": "<div class=\"input-field\">\r\n  <i class=\"material-icons prefix\">account_circle</i>\r\n  <input name=\"$1\" id=\"$1\" type=\"text\" class=\"validate\">\r\n  <label for=\"$1\">$2</label>\r\n</div>",
+		"description" : "Basic Textbox",
+		"scope": "text.html"
+	},
+	"md-listbox:basic" : {
+		"prefix":"md-listbox:basic",
+		"body": "<div class=\"input-field\">\r\n  <select name=\"$1\">\r\n    <option value=\"\" disabled selected>Choose your option</option>\r\n    <option value=\"1\">Option 1</option>\r\n    <option value=\"2\">Option 2</option>\r\n    <option value=\"3\">Option 3</option>\r\n  </select>\r\n  <label>$2</label>\r\n</div>",
+		"description" : "Basic Listbox",
+		"scope": "text.html"
+	},
+	"md-radio:basic" : {
+		"prefix":"md-radio:basic",
+		"body": "<label>\r\n  <input name=\"$1\" type=\"radio\" checked value=\"$2\"/>\r\n  <span>$2</span>\r\n</label>",
+		"description" : "Basic Radiobutton",
+		"scope": "text.html"
+	},
+	"md-radio:gap" : {
+		"prefix":"md-radio:gap",
+		"body": "<label>\r\n  <input name=\"$1\" type=\"radio\" class=\"with-gap\" checked value=\"$2\" />\r\n  <span>$2</span>\r\n</label>",
+		"description" : "Basic Radiobutton",
+		"scope": "text.html"
+	},
+	"md-checkbox:basic" : {
+		"prefix":"md-checkbox:basic",
+		"body": "<label>\r\n  <input name=\"$1\" type=\"checkbox\" checked=\"checked\" />\r\n  <span>$2</span>\r\n</label>",
+		"description" : "Basic Checkbox",
+		"scope": "text.html"
+	},
+	"md-checkbox:filled" : {
+		"prefix":"md-checkbox:filled",
+		"body": "<label>\r\n  <input name=\"$1\" type=\"checkbox\" class=\"filled-in\" checked=\"checked\" />\r\n  <span>$2</span>\r\n</label>",
+		"description" : "Basic Checkbox",
+		"scope": "text.html"
+	},
+	"md-switch" : {
+		"prefix":"md-switch",
+		"body": "<div class=\"switch\">\r\n  <label>\r\n  Off\r\n  <input name=\"$1\" type=\"checkbox\">\r\n  <span class=\"lever\"></span>\r\n  On\r\n  </label>\r\n</div>",
+		"description" : "Switch",
+		"scope": "text.html"
+	},
+	"md-date" : {
+		"prefix":"md-date",
+		"body": "<input name=\"$1\"type=\"text\" class=\"datepicker\">",
+		"description" : "Date",
+		"scope": "text.html"
+	}
+
+}

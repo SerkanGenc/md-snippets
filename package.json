@@ -1,0 +1,35 @@
+{
+    "name": "md",
+    "displayName": "md",
+    "publisher": "ctis256",
+    "icon": "images/icon.png" ,
+    "description": "",
+    "version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SerkanGenc/md-snippets.git"
+	},
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "keywords" : [
+        "materialize",
+        "md framework",
+        "snippets"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
