@@ -6,12 +6,12 @@
 	},
 	"md-nav:basic": {
 		"prefix": "md-nav:basic",
-		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n<li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>",
+		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n    <li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>",
 		"description": "Basic Navbar"
 	},
 	"md-nav:mobil": {
 		"prefix": "md-nav:mobil",
-		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <a href=\"#\" data-target=\"mobile-demo\" class=\"sidenav-trigger\"><i class=\"material-icons\">menu</i></a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n<li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n<ul class=\"sidenav\" id=\"mobile-demo\">\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n  <li class=\"divider\"></li>\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n</ul>",
+		"body": "<nav>\r\n  <div class=\"nav-wrapper\">\r\n    <a href=\"#\" class=\"brand-logo\">Logo</a>\r\n    <a href=\"#\" data-target=\"mobile-demo\" class=\"sidenav-trigger\"><i class=\"material-icons\">menu</i></a>\r\n    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\r\n      <li><a href=\"sass.html\">Sass</a></li>\r\n      <li><a href=\"badges.html\">Components</a></li>\r\n    <li><a href=\"sass.html\">Sass</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n<ul class=\"sidenav\" id=\"mobile-demo\">\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n  <li class=\"divider\"></li>\r\n  <li><a href=\"sass.html\">Sass</a></li>\r\n</ul>",
 		"description": "Basic Navbar Mobil"
 	},
 	"md-icon" : {
@@ -80,8 +80,8 @@
 		"description" : "Basic Textbox",
 		"scope": "text.html"
 	},
-	"md-listbox:basic" : {
-		"prefix":"md-listbox:basic",
+	"md-ls:basic" : {
+		"prefix":"md-ls:basic",
 		"body": "<div class=\"input-field\">\r\n  <select name=\"$1\">\r\n    <option value=\"\" disabled selected>Choose your option</option>\r\n    <option value=\"1\">Option 1</option>\r\n    <option value=\"2\">Option 2</option>\r\n    <option value=\"3\">Option 3</option>\r\n  </select>\r\n  <label>$2</label>\r\n</div>",
 		"description" : "Basic Listbox",
 		"scope": "text.html"
@@ -118,7 +118,7 @@
 	},
 	"md-date" : {
 		"prefix":"md-date",
-		"body": "<input name=\"$1\"type=\"text\" class=\"datepicker\">",
+		"body": "<input name=\"$1\" type=\"text\" class=\"datepicker\">",
 		"description" : "Date",
 		"scope": "text.html"
 	}
