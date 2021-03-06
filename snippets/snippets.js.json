@@ -1,0 +1,33 @@
+{
+    "md-ls" : {
+		"prefix":"md-ls",
+		"body": "$('select').formSelect();",
+		"description" : "Init listbox"
+	},
+    "md-date" : {
+		"prefix":"md-date",
+		"body": "$('.datepicker').datepicker();",
+		"description" : "Init Date Picker"
+	},
+    "md-nav" : {
+		"prefix":"md-nav",
+		"body": "$('.sidenav').sidenav();",
+		"description" : "Init Side Navbar"
+	},
+    "md-toast" : {
+		"prefix":"md-toast",
+		"body": "M.toast({html: 'Message', displayLength: 2000})",
+		"description" : "Standard Toast"
+	},
+    "md-toast:rounded" : {
+		"prefix":"md-toast:rounded",
+		"body": "M.toast({html: 'Message', displayLength: 2000, classes: 'rounded'})",
+		"description" : "Rounded Toast"
+	},
+    "md-modal" : {
+		"prefix":"md-modal",
+		"body": "$('.modal').modal({dismissible: false});",
+		"description" : "Init Modal Dialog Box"
+	}
+
+}

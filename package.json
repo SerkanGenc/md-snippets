@@ -29,6 +29,10 @@
             {
                 "language": "php",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.js.json"
             }
         ]
     }

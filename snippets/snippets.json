@@ -17,110 +17,108 @@
 	"md-icon" : {
 		"prefix":"md-icon",
 		"body": "<i class=\"material-icons\">$1add</i>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-icon:tiny" : {
 		"prefix":"md-icon:tiny",
 		"body": "<i class=\"material-icons tiny\">$1add</i>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-icon:small" : {
 		"prefix":"md-icon:small",
 		"body": "<i class=\"material-icons small\">$1add</i>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-icon:large" : {
 		"prefix":"md-icon:large",
 		"body": "<i class=\"material-icons large\">$1add</i>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-card" : {
 		"prefix":"md-card",
 		"body": "<div class=\"card-panel teal lighten-2 white-text\">\r\n$1\r\n</div>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-btn" : {
 		"prefix":"md-btn",
 		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\">$2</a>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-btn:left" : {
 		"prefix":"md-btn",
 		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\"><i class=\"material-icons left\">$2cloud</i>$3</a>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-btn:right" : {
 		"prefix":"md-btn",
 		"body": "<a class=\"waves-effect waves-light btn\" href=\"$1\"><i class=\"material-icons right\">$2cloud</i>$3</a>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
 	"md-submit" : {
 		"prefix":"md-submit",
 		"body": "<button class=\"btn waves-effect waves-light\" type=\"submit\" name=\"action\">$1Submit\r\n  <i class=\"material-icons right\">send</i>\r\n</button>",
-		"description" : "Basic Icon",
-		"scope": "text.html"
+		"description" : "Basic Icon" 
 	},
     "md-tx:basic" : {
 		"prefix":"md-tx:basic",
 		"body": "<div class=\"input-field\">\r\n  <input name=\"$1\" id=\"$1\" type=\"text\" class=\"validate\">\r\n  <label for=\"$1\">$2</label>\r\n</div>",
-		"description" : "Basic Textbox",
-		"scope": "text.html"
+		"description" : "Basic Textbox" 
 	},
 	"md-tx:prefix" : {
 		"prefix":"md-tx:prefix",
 		"body": "<div class=\"input-field\">\r\n  <i class=\"material-icons prefix\">account_circle</i>\r\n  <input name=\"$1\" id=\"$1\" type=\"text\" class=\"validate\">\r\n  <label for=\"$1\">$2</label>\r\n</div>",
-		"description" : "Basic Textbox",
-		"scope": "text.html"
+		"description" : "Basic Textbox" 
 	},
 	"md-ls:basic" : {
 		"prefix":"md-ls:basic",
 		"body": "<div class=\"input-field\">\r\n  <select name=\"$1\">\r\n    <option value=\"\" disabled selected>Choose your option</option>\r\n    <option value=\"1\">Option 1</option>\r\n    <option value=\"2\">Option 2</option>\r\n    <option value=\"3\">Option 3</option>\r\n  </select>\r\n  <label>$2</label>\r\n</div>",
-		"description" : "Basic Listbox",
-		"scope": "text.html"
+		"description" : "Basic Listbox" 
 	},
 	"md-radio:basic" : {
 		"prefix":"md-radio:basic",
 		"body": "<label>\r\n  <input name=\"$1\" type=\"radio\" checked value=\"$2\"/>\r\n  <span>$2</span>\r\n</label>",
-		"description" : "Basic Radiobutton",
-		"scope": "text.html"
+		"description" : "Basic Radiobutton" 
 	},
 	"md-radio:gap" : {
 		"prefix":"md-radio:gap",
 		"body": "<label>\r\n  <input name=\"$1\" type=\"radio\" class=\"with-gap\" checked value=\"$2\" />\r\n  <span>$2</span>\r\n</label>",
-		"description" : "Basic Radiobutton",
-		"scope": "text.html"
+		"description" : "Basic Radiobutton" 
 	},
 	"md-checkbox:basic" : {
 		"prefix":"md-checkbox:basic",
 		"body": "<label>\r\n  <input name=\"$1\" type=\"checkbox\" checked=\"checked\" />\r\n  <span>$2</span>\r\n</label>",
-		"description" : "Basic Checkbox",
-		"scope": "text.html"
+		"description" : "Basic Checkbox" 
 	},
 	"md-checkbox:filled" : {
 		"prefix":"md-checkbox:filled",
 		"body": "<label>\r\n  <input name=\"$1\" type=\"checkbox\" class=\"filled-in\" checked=\"checked\" />\r\n  <span>$2</span>\r\n</label>",
-		"description" : "Basic Checkbox",
-		"scope": "text.html"
+		"description" : "Basic Checkbox" 
 	},
 	"md-switch" : {
 		"prefix":"md-switch",
 		"body": "<div class=\"switch\">\r\n  <label>\r\n  Off\r\n  <input name=\"$1\" type=\"checkbox\">\r\n  <span class=\"lever\"></span>\r\n  On\r\n  </label>\r\n</div>",
-		"description" : "Switch",
-		"scope": "text.html"
+		"description" : "Switch" 
 	},
 	"md-date" : {
 		"prefix":"md-date",
 		"body": "<input name=\"$1\" type=\"text\" class=\"datepicker\">",
-		"description" : "Date",
-		"scope": "text.html"
+		"description" : "Date" 
+	},
+	"md-modal" : {
+		"prefix":"md-modal",
+		"body": "<!-- Modal Structure -->\r\n<div id=\"modal1\" class=\"modal\">\r\n  <div class=\"modal-content\">\r\n    <h4>Modal Header</h4>\r\n    <p>lorem lorem</p>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <a href=\"#!\" class=\"modal-close waves-effect waves-green btn-flat\">Agree</a>\r\n  </div>\r\n</div>",
+		"description" : "Modal Structure" 
+	},
+	"md-modal:trigger" : {
+		"prefix":"md-modal:trigger",
+		"body": "<a class=\"waves-effect waves-light btn modal-trigger\" href=\"#modal1\">Modal</a>",
+		"description" : "Modal Trigger" 
+	},
+	"md-modal:trigger-button" : {
+		"prefix":"md-modal:trigger-button",
+		"body": "<button data-target=\"modal1\" class=\"btn modal-trigger\">Modal</button>",
+		"description" : "Modal Trigger Button" 
 	}
+
 
 }
