@@ -1,10 +1,7 @@
 # CTIS 256 - Materialize Framework Code Snippets (sgenc)
 
-Buraya bir şeyler yazılabilir.
+The snippets related to MD framework that I use in the course.
 
-## Features
-
-Hızlı bir şekilde kod geliştirmeye yardımcı olur.
 
 ## How to use
 
@@ -14,8 +11,12 @@ You can generate Materialize Design Framework code snippets by md prefix.
 ## Snippets
 | Snippet | Snippet Content | 
 |---------|-----------------|
-| md-start | CDN template codes|
+| md-init | CDN template codes|
 | md-tx:basic | Textbox |
 | md-ls | Listbox |
 | md-ch | Checkbox |
 | md-rd | Radio button |
+| md-nav | Navigation Bar |
+| md-nav:mobile | Navigation bar with mobile support |
+| md-icon | Icon |
+| md-submit | Submit Button |
