@@ -69,6 +69,11 @@
 		"body": "<div class=\"input-field\">\r\n  <i class=\"material-icons prefix\">account_circle</i>\r\n  <input name=\"$1\" id=\"$1\" type=\"text\" class=\"validate\">\r\n  <label for=\"$1\">$2</label>\r\n</div>",
 		"description" : "Basic Textbox" 
 	},
+	"md-textarea" : {
+		"prefix":"md-textarea",
+		"body": "<div class=\"input-field\">\r\n  <textarea name=\"$1\" id=\"$1\" class=\"materialize-textarea\"></textarea>\r\n  <label for=\"$1\">$2</label>\r\n</div>",
+		"description" : "Basic Textarea" 
+	},
 	"md-ls:basic" : {
 		"prefix":"md-ls:basic",
 		"body": "<div class=\"input-field\">\r\n  <select name=\"$1\">\r\n    <option value=\"\" disabled selected>Choose your option</option>\r\n    <option value=\"1\">Option 1</option>\r\n    <option value=\"2\">Option 2</option>\r\n    <option value=\"3\">Option 3</option>\r\n  </select>\r\n  <label>$2</label>\r\n</div>",
